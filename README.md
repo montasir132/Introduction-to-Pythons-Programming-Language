@@ -205,6 +205,131 @@ Temperature in Fahrenheit: 190.4
 ```
 
 ---
+## 1️⃣ তিনটি সংখ্যার মধ্যে ছোট সংখ্যা নির্ণয়
+
+### ✔ Program
+
+```python
+a = int(input("Enter a value A =  "))
+b = int(input("Enter a value B =  "))
+c = int(input("Enter a value C =  "))
+
+if (a < b and a < c):
+    print("A =", a, "is the smallest number")
+elif (b < a and b < c):
+    print("B =", b, "is the smallest number")
+else:
+    print("C =", c, "is the smallest number")
+```
+
+### ✔ Input
+
+```
+47
+99
+72
+```
+
+### ✔ Output
+
+```
+A = 47 is the smallest number
+```
+
+---
+
+## 2️⃣ জোড় এবং বিজোড় সংখ্যা নির্ণয়
+
+### ✔ Program
+
+```python
+a = int(input("Enter a value =  "))
+if (a % 2 == 0):
+    print(a, "is the Even number")
+else:
+    print(a, "is the Odd number")
+```
+
+### ✔ Input
+
+```
+47
+```
+
+### ✔ Output
+
+```
+47 is the Odd number
+```
+
+---
+
+## 3️⃣ স্কোরের উপর ভিত্তি করে লেটার গ্রেড নির্ধারণ
+
+### ✔ Program
+
+```python
+res = int(input("Enter a value =  "))
+
+if (80 <= res):
+    print(res, "=", "A+")
+elif (70 <= res):
+    print(res, "=", "A")
+elif (60 <= res):
+    print(res, "=", "A-")
+elif (50 <= res):
+    print(res, "=", "B")
+elif (40 <= res):
+    print(res, "=", "C")
+elif (33 <= res):
+    print(res, "=", "D")
+else:
+    print(res, "=", "F")
+```
+
+### ✔ Input
+
+```
+47
+```
+
+### ✔ Output
+
+```
+47 = C
+```
+
+---
+
+## 4️⃣ বয়স অনুযায়ী ব্যক্তি Minor / Young / Old নির্ণয়
+
+### ✔ Program
+
+```python
+age = int(input("Enter your age: "))
+
+if (age < 19):
+    print("Minor")
+elif (age < 61):
+    print("Young")
+else:
+    print("Old")
+```
+
+### ✔ Input
+
+```
+47
+```
+
+### ✔ Output
+
+```
+Young
+```
+
+---
+
 
 ## 📌 Summary
 
@@ -219,5 +344,4 @@ Temperature in Fahrenheit: 190.4
 ---
 
 > ✍️ **Tips:** অ্যাসাইনমেন্ট লেখার সময় কোডের মধ্যে থাকা `#` দিয়ে শুরু হওয়া লাইনগুলো বাদ দিয়ে কেবল মূল প্রোগ্রামটাই লিখবে।
-
 
