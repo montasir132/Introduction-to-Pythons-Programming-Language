@@ -210,6 +210,7 @@ Temperature in Fahrenheit: 190.4
 ### ✔ Program
 
 ```python
+# Program - 7
 a = int(input("Enter a value A =  "))
 b = int(input("Enter a value B =  "))
 c = int(input("Enter a value C =  "))
@@ -243,6 +244,7 @@ A = 47 is the smallest number
 ### ✔ Program
 
 ```python
+# Program - 8
 a = int(input("Enter a value =  "))
 if (a % 2 == 0):
     print(a, "is the Even number")
@@ -269,6 +271,7 @@ else:
 ### ✔ Program
 
 ```python
+# Program - 9
 res = int(input("Enter a value =  "))
 
 if (80 <= res):
@@ -306,6 +309,7 @@ else:
 ### ✔ Program
 
 ```python
+# Program - 10
 age = int(input("Enter your age: "))
 
 if (age < 19):
